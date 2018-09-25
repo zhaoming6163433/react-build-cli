@@ -9,6 +9,7 @@
     "__DEVELOPMENT__": false
   },
   "rules": {
+    "no-console":["off"],
     "import/no-named-as-default": ["off"],
     "react/jsx-closing-tag-location": ["off"],
     "comma-dangle": ["off", "never"],

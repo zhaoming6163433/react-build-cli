@@ -6,6 +6,7 @@ import Store from '../redux';
 import DevTools from '../redux/DevTools';
 import App from '../containers/app';
 import Docs from '../containers/docs';
+import About from '../containers/about';
 
 const Router = ({component: Component, children, ...rest}) => (
   <Route
@@ -24,6 +25,7 @@ const Root = () => (
         <Switch>
           <Router path="/" component={App} >
             <Router exact path="/docs" component={Docs} />
+            <Router exact path="/about" component={About} />
           </Router>
         </Switch>
       </div>
